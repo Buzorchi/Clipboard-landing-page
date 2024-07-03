@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #f3f4f6;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    color: #9FABB2;
+
+    @media (max-width: 768px) {
+      align-items: center;
+      text-align: center;
+      display: block;
+    }
+  }
+  

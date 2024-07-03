@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('/images/bg-header-desktop.png');
+  background-size: cover; 
+  background-position: center; 
+  width: 100%;; 
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4C545D;
+    margin-top: 1rem;
+  }
+
+  p {
+    color: #9FABB2;
+    max-width: 90%;
+    margin: 1rem 0;
+  }
+
+  .download-buttons {
+    padding-top: 2rem;
+
+    button {
+      background-color: #10b981;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 1.5rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem; 
+
+      &:last-child {
+        background-color: #3b82f6;
+        margin-right: 0; 
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    h1 {
+      font-size: 3rem; 
+    }
+
+    p {
+      max-width: 80%; 
+    }
+
+    .download-buttons {
+      padding-top: 3rem;
+
+      button {
+        padding: 0.75rem 1.5rem; 
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    p {
+      max-width: 700px; 
+    }
+  }
+}
